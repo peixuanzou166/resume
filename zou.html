@@ -30,6 +30,7 @@
     .btn{border:1px solid rgba(0,0,0,0.08);padding:8px 12px;border-radius:8px;background:transparent;cursor:pointer}
     .print-only{display:none}
     @media print{body{padding:0} .btns, .theme-toggle, .print-only{display:none} .container{grid-template-columns:1fr}} 
+    /* Experience list */
     .exp{border-left:3px solid rgba(0,0,0,0.06);padding-left:12px;margin-bottom:12px}
     .exp .title{font-weight:600}
     .tag{font-size:12px;padding:4px 8px;border-radius:6px;background:var(--glass);display:inline-block;margin-left:8px}
@@ -52,18 +53,13 @@
         </div>
       </header>
 
-      <!-- 新增的個人照片 -->
-      <img src="image/photo_2025-10-16_00-31-20.jpg"
-           alt="profile photo"
-           style="width:100%; border-radius:12px; margin:16px 0; box-shadow:0 4px 12px rgba(0,0,0,0.1)" />
-
       <section class="section">
         <h3>自我簡介</h3>
         <p class="muted">具備平面與數位設計基礎，擅長視覺傳達與品牌識別。偏好將設計過程比喻為「線索、拼湊、辦案」的推理思維，善於從碎片中找出整體故事。</p>
       </section>
 
       <section class="section">
-        <h3>專業經歷（ 實習 / 專案 ）</h3>
+        <h3>專業經歷（&nbsp;實習 / 專案&nbsp;）</h3>
         <div class="exp">
           <div class="title">品牌識別設計助理 <span class="muted">· 實習 · 2024/07 - 2024/09</span></div>
           <div class="muted">負責視覺系統延伸、社群貼文排版與海報印刷規格確認。</div>
@@ -121,6 +117,10 @@
         <button class="btn" onclick="downloadHTML()">下載 HTML 檔</button>
         <div style="height:8px"></div>
         <button class="btn" onclick="copyToClipboard()">複製 HTML 到剪貼簿</button>
+      </div>
+
+      <div class="section muted">
+
       </div>
     </aside>
   </div>
